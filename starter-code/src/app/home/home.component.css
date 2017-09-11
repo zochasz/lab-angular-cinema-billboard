@@ -1,0 +1,13 @@
+h1{
+  text-align: center;
+}
+li {
+  width: 18%;
+  float: left;
+  padding: 10px 1%;
+  text-align: center;
+  list-style-type: none;
+}
+img {
+  width: 90%;
+}

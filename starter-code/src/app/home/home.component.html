@@ -1,0 +1,10 @@
+<h1> IRONHACK CINEMA </h1>
+
+<ul>
+  <li *ngFor="let movie of movies">
+    <h4> {{ movie.title }} </h4>
+    <img [src]="movie.poster">
+    <a [routerLink]="['/movie', movie.id]"> View details </a>
+
+  </li>
+</ul>
